@@ -24,7 +24,6 @@ nav ul{
 nav ul li{
     text-align: center;
     display: flex;
-    
 }
 nav ul li a{
     border: solid 1px black;
@@ -38,4 +37,24 @@ nav ul li a:visited{
 }
 #info{
     background-color: beige;
+}
+/*RUTINA*/
+#rutina{
+    background-color: white;
+    font-size: 30px;
+    text-align: center;
+    border: 1px solid black;
+}
+#rutina select{
+    width: 100%;
+    text-align: center;
+}
+#rutina label{
+    display: block;
+    width: 100%;
+    background-color: rgb(236, 236, 236);
+}
+#rutina button{
+    font-size: 50px;
+    width: 100%;
 }
