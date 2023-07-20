@@ -1,0 +1,48 @@
+
+body{
+    margin: 0px;
+}
+header h1{
+    text-align: center;
+    font-size: 50px;
+    background-color: cadetblue;
+    font-family: cursive;
+    margin: 0px;
+}
+nav{
+    background-color: blanchedalmond;
+    display: flex;
+    border-bottom: 1px solid black;
+}
+nav ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+nav ul li{
+    text-align: center;
+    display: flex;
+    
+}
+nav ul li a{
+    border: solid 1px black;
+    background-color: antiquewhite;
+    color: brown;
+    text-decoration: none;
+    font-size: 25px;
+}
+nav ul li a:visited{
+    color: brown;
+}
+body{
+    background-color: azure;
+}
+#info{
+    background-color: beige;
+   
+}
+#rutina{
+    border: 1px solid black;
+    padding: 5px;
+    background-color: rgb(202, 202, 202);
+}
