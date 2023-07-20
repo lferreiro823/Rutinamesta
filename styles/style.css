@@ -33,8 +33,10 @@ nav ul li{
     display: flex;
 }
 nav ul li a{
+    border-radius: 50%;
     border: solid 1px black;
-    background-color: antiquewhite;
+    padding: 10px;
+    background-color: rgb(247, 230, 253);
     color: brown;
     text-decoration: none;
     font-size: 25px;
