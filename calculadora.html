@@ -1,16 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Indice corporal</title>
-</head>
+    <head>
+        <title>Rutinamesta - IMC</title>
+        <link rel="shortcut icon" href="/img/favicon.ico">
+        <link rel="stylesheet" href="styles/style.css">
+    </head>
 <body>
     <form name="calculator" id="calculadora">
     <p id="peso">Ingrese su peso corporal<input type="number" required min="1"></p>
     <p id="altura">Ingrese su estatura en CM<input type="number" required min="1"></p>
     <button id="submit">Calcular</button:submit>
     </form>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="manual.html">Manual</a></li>
+            </ul>
+        </nav>
+        <h1>Rutinamesta</h1>
+    </header>
+    <main>
+        <form name="calculator" id="calculadora">
+            <p id="peso">Ingrese su peso corporal (kg): <input type="number" required min="1"></p>
+            <p id="altura">Ingrese su estatura (metros): <input type="number" required min="1"></p>
+            <button type="submit">Calcular</button>
+        </form>
+        <p id="imc_resultado">a</p>
+    </main>
     <link rel="stylesheet" href="js/script.js">
 </body>
 </html>
