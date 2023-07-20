@@ -1,6 +1,7 @@
 
 body{
     margin: 0px;
+    background-color: azure;
 }
 header h1{
     text-align: center;
@@ -9,6 +10,7 @@ header h1{
     font-family: cursive;
     margin: 0px;
 }
+/* NAV*/
 nav{
     background-color: blanchedalmond;
     display: flex;
@@ -34,15 +36,6 @@ nav ul li a{
 nav ul li a:visited{
     color: brown;
 }
-body{
-    background-color: azure;
-}
 #info{
     background-color: beige;
-   
-}
-#rutina{
-    border: 1px solid black;
-    padding: 5px;
-    background-color: rgb(202, 202, 202);
 }
