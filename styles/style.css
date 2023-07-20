@@ -80,6 +80,20 @@ nav ul li a:visited{
     text-align: center;
     width: 100%;
 }
+#info p {
+    padding: 0px 10px;
+}
+.link{
+    font-size: 50px;
+    border-radius: 10px;
+    border: solid 1px black;
+    padding: 10px;
+    margin: 10px;
+    background-color: brown;
+    color: white;
+    text-decoration: none;
+}
+
 /*CALCULADORA IMC*/
 #calculadora{
     border: solid 1px black;
