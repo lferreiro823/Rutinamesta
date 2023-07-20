@@ -1,14 +1,21 @@
 
 body{
+    align-items: center;
     margin: 0px;
     background-color: azure;
 }
 header h1{
+    color: white;
     text-align: center;
     font-size: 50px;
-    background-color: cadetblue;
+    background-color: rgba(226,71,61,255);
     font-family: cursive;
     margin: 0px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 /* NAV*/
 nav{
@@ -24,7 +31,6 @@ nav ul{
 nav ul li{
     text-align: center;
     display: flex;
-    
 }
 nav ul li a{
     border: solid 1px black;
@@ -38,4 +44,37 @@ nav ul li a:visited{
 }
 #info{
     background-color: beige;
+}
+/*RUTINA*/
+#rutina{
+    width: 100%;
+    background-color: white;
+    font-size: 30px;
+    text-align: center;
+    border: 1px solid black;
+}
+#rutina select{
+    width: 100%;
+    text-align: center;
+}
+#rutina label{
+    display: block;
+    width: 100%;
+    background-color: rgb(236, 236, 236);
+}
+#rutina button{
+    font-size: 50px;
+    width: 100%;
+}
+/*INDEX*/
+
+#logo{
+    border: 1px solid rgb(53, 0, 0);
+    width: 50%;
+    margin: 20px;
+}
+
+#info {
+    text-align: center;
+    width: 100%;
 }
