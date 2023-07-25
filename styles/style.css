@@ -60,6 +60,7 @@ nav ul li a:visited{
     text-align: center;
 }
 #rutina label{
+    text-transform: capitalize;
     display: block;
     width: 100%;
     background-color: rgb(236, 236, 236);
