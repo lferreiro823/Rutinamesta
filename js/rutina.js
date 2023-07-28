@@ -186,7 +186,7 @@ function crearRutina(e){
         let tr  = document.createElement("tr");
         table.appendChild(tr);
         let th  = document.createElement("th");
-        th.innerText = "Día " + i;
+        th.innerText = "Dia " + i;
         tr.appendChild(th);
         tr  = document.createElement("tr");
         table.appendChild(tr);
