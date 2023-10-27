@@ -169,6 +169,7 @@ Se crea el encabezado
 Luego se verifica si se quiere entrenar pierna o no 
 */
 function crearRutina(e) {
+    rutinaForm.classList.toggle("off");
     e.preventDefault();
     resultado.innerHTML = "";
     tabla_dia = [];

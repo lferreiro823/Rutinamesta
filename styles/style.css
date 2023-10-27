@@ -55,6 +55,9 @@ nav ul li a:visited{
     text-align: center;
     border: 1px solid black;
 }
+#off{
+    display: none;
+}
 #rutina select{
     width: 100%;
     text-align: center;
