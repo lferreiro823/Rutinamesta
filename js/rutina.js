@@ -168,9 +168,19 @@ Vacia el resultado
 Se crea el encabezado
 Luego se verifica si se quiere entrenar pierna o no 
 */
-function crearRutina(e) {
-    rutinaForm.classList.toggle("off");
+let btn_reintentar = document.getElementById("reintentar");
+btn_reintentar.addEventListener("click", reintentar);
+function reintentar(e){
     e.preventDefault();
+    rutinaForm.classList.toggle("off");
+    btn_reintentar.classList.toggle("off");
+    resultado.innerHTML="";
+}
+
+function crearRutina(e) {
+    e.preventDefault();
+    rutinaForm.classList.toggle("off");
+    btn_reintentar.classList.toggle("off");
     resultado.innerHTML = "";
     tabla_dia = [];
     let dias = document.getElementById("dias").value;
